@@ -13,8 +13,11 @@ TextFiled Dropdown with beautiful animation , Easly handle with multiple fields 
     
 
  **Dropdown Methods**
+ 
 -(void)openDropDown ;
+
 -(void)closeDropDown ;
+
 
 # Delegate Methods 
 
