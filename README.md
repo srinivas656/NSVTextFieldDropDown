@@ -31,15 +31,15 @@ TextFiled Dropdown with beautiful animation , Easly handle with multiple fields 
 
 - (void)textFieldDidEndEditing:(NSVDropdownTextField *)textField{
 - 
-    [textField closeDropDown];
+   [textField closeDropDown];
 
 }
 
  **Search Method**
 
 - (BOOL)textField:(NSVDropdownTextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
-- 
-    return [textField searchinDropDown:textField shouldChangeCharactersInRange:range replacementString:string];
+ 
+  return [textField searchinDropDown:textField shouldChangeCharactersInRange:range replacementString:string];
 
 }
 
@@ -47,7 +47,7 @@ TextFiled Dropdown with beautiful animation , Easly handle with multiple fields 
 
 -(void)didSelectedElement:(id)selectItem andDisplayElemnt:(NSString *)disElement andTextFieldTag:(NSInteger)tag {
 
-    NSLog(@"%s :%@",__func__,selectItem);
+  NSLog(@"%s :%@",__func__,selectItem);
 
 }
 
