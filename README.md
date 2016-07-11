@@ -12,6 +12,10 @@ TextFiled Dropdown with beautiful animation , Easly handle with multiple fields 
     cityTF.dropdownElements = (NSMutableArray *)[NSArray arrayWithObjects:@"Hyderabad",@"Pune",@"Chennai",@"Amaravathi",@"Mumbai",nil];
     
 
+ **Dropdown Methods**
+-(void)openDropDown ;
+-(void)closeDropDown ;
+
 # Delegate Methods 
 
  **UITextFiled Delegate Methods**
