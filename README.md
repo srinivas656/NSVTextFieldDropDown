@@ -24,14 +24,14 @@ TextFiled Dropdown with beautiful animation , Easly handle with multiple fields 
  **UITextFiled Delegate Methods**
 
 - (void)textFieldDidBeginEditing:(NSVDropdownTextField*)textField{
-- 
-    [textField openDropDown];
+
+  [textField openDropDown];
 
 }
 
 - (void)textFieldDidEndEditing:(NSVDropdownTextField *)textField{
-- 
-   [textField closeDropDown];
+
+  [textField closeDropDown];
 
 }
 
