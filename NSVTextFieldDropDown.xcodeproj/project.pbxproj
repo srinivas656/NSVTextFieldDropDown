@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACE9F5721D33AD17000744A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE9F5711D33AD17000744A3 /* main.m */; };
+		ACE9F5751D33AD17000744A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE9F5741D33AD17000744A3 /* AppDelegate.m */; };
+		ACE9F5781D33AD17000744A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE9F5771D33AD17000744A3 /* ViewController.m */; };
+		ACE9F57B1D33AD17000744A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE9F5791D33AD17000744A3 /* Main.storyboard */; };
+		ACE9F57D1D33AD17000744A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE9F57C1D33AD17000744A3 /* Assets.xcassets */; };
+		ACE9F5801D33AD17000744A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE9F57E1D33AD17000744A3 /* LaunchScreen.storyboard */; };
+		ACE9F58A1D33AD9E000744A3 /* NSVDropdownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE9F5891D33AD9E000744A3 /* NSVDropdownTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACE9F56D1D33AD17000744A3 /* NSVTextFieldDropDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSVTextFieldDropDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE9F5711D33AD17000744A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACE9F5731D33AD17000744A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACE9F5741D33AD17000744A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACE9F5761D33AD17000744A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACE9F5771D33AD17000744A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACE9F57A1D33AD17000744A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE9F57C1D33AD17000744A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE9F57F1D33AD17000744A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE9F5811D33AD17000744A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE9F5881D33AD9E000744A3 /* NSVDropdownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSVDropdownTextField.h; sourceTree = "<group>"; };
+		ACE9F5891D33AD9E000744A3 /* NSVDropdownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSVDropdownTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE9F56A1D33AD17000744A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE9F5641D33AD17000744A3 = {
+			isa = PBXGroup;
+			children = (
+				ACE9F56F1D33AD17000744A3 /* NSVTextFieldDropDown */,
+				ACE9F56E1D33AD17000744A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE9F56E1D33AD17000744A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE9F56D1D33AD17000744A3 /* NSVTextFieldDropDown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE9F56F1D33AD17000744A3 /* NSVTextFieldDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				ACE9F5731D33AD17000744A3 /* AppDelegate.h */,
+				ACE9F5741D33AD17000744A3 /* AppDelegate.m */,
+				ACE9F5761D33AD17000744A3 /* ViewController.h */,
+				ACE9F5771D33AD17000744A3 /* ViewController.m */,
+				ACE9F5871D33AD9E000744A3 /* NSVDropdownTextField */,
+				ACE9F5791D33AD17000744A3 /* Main.storyboard */,
+				ACE9F57C1D33AD17000744A3 /* Assets.xcassets */,
+				ACE9F57E1D33AD17000744A3 /* LaunchScreen.storyboard */,
+				ACE9F5811D33AD17000744A3 /* Info.plist */,
+				ACE9F5701D33AD17000744A3 /* Supporting Files */,
+			);
+			path = NSVTextFieldDropDown;
+			sourceTree = "<group>";
+		};
+		ACE9F5701D33AD17000744A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACE9F5711D33AD17000744A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACE9F5871D33AD9E000744A3 /* NSVDropdownTextField */ = {
+			isa = PBXGroup;
+			children = (
+				ACE9F5881D33AD9E000744A3 /* NSVDropdownTextField.h */,
+				ACE9F5891D33AD9E000744A3 /* NSVDropdownTextField.m */,
+			);
+			path = NSVDropdownTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE9F56C1D33AD17000744A3 /* NSVTextFieldDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE9F5841D33AD17000744A3 /* Build configuration list for PBXNativeTarget "NSVTextFieldDropDown" */;
+			buildPhases = (
+				ACE9F5691D33AD17000744A3 /* Sources */,
+				ACE9F56A1D33AD17000744A3 /* Frameworks */,
+				ACE9F56B1D33AD17000744A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSVTextFieldDropDown;
+			productName = NSVTextFieldDropDown;
+			productReference = ACE9F56D1D33AD17000744A3 /* NSVTextFieldDropDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE9F5651D33AD17000744A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Microexcel;
+				TargetAttributes = {
+					ACE9F56C1D33AD17000744A3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = ACE9F5681D33AD17000744A3 /* Build configuration list for PBXProject "NSVTextFieldDropDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE9F5641D33AD17000744A3;
+			productRefGroup = ACE9F56E1D33AD17000744A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE9F56C1D33AD17000744A3 /* NSVTextFieldDropDown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE9F56B1D33AD17000744A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE9F5801D33AD17000744A3 /* LaunchScreen.storyboard in Resources */,
+				ACE9F57D1D33AD17000744A3 /* Assets.xcassets in Resources */,
+				ACE9F57B1D33AD17000744A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE9F5691D33AD17000744A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE9F5781D33AD17000744A3 /* ViewController.m in Sources */,
+				ACE9F5751D33AD17000744A3 /* AppDelegate.m in Sources */,
+				ACE9F58A1D33AD9E000744A3 /* NSVDropdownTextField.m in Sources */,
+				ACE9F5721D33AD17000744A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACE9F5791D33AD17000744A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE9F57A1D33AD17000744A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE9F57E1D33AD17000744A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE9F57F1D33AD17000744A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE9F5821D33AD17000744A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACE9F5831D33AD17000744A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE9F5851D33AD17000744A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NSVTextFieldDropDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microexcel.NSVTextFieldDropDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACE9F5861D33AD17000744A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NSVTextFieldDropDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microexcel.NSVTextFieldDropDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE9F5681D33AD17000744A3 /* Build configuration list for PBXProject "NSVTextFieldDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE9F5821D33AD17000744A3 /* Debug */,
+				ACE9F5831D33AD17000744A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE9F5841D33AD17000744A3 /* Build configuration list for PBXNativeTarget "NSVTextFieldDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE9F5851D33AD17000744A3 /* Debug */,
+				ACE9F5861D33AD17000744A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE9F5651D33AD17000744A3 /* Project object */;
+}
